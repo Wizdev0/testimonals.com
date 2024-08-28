@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+   
+    gap: 2rem ;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.box{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5;
+}
+
+
+/* IMAGES */
+.name{
+    display: flex;
+    margin-left: 80px;
+    margin-top: -40px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.subname{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 6px;
+    opacity: 1.6;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.image{
+    width: 35px;
+    border-radius: 50px;
+    border: 2px solid purple;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* BOXES */
+
+/* BOX1 */
+.b1{
+    width: 600px;
+    height: 300px;
+    background-color: purple;
+    border-radius: 5px;
+    line-break: auto;
+    font-family:  sans-serif;
+}
+
+i{
+    position: absolute;
+    top: -8px;
+    left: 35%;
+    font-size: 150px;
+    opacity: 0.5;
+}
+
+.note1{
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.sub1{
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: grey;
+    font-weight: 800;
+}
+
+.yoo{
+    border: solid white;
+}
+
+/* BOX2 */
+.b2{
+    border-radius: 5px;
+    background-color: rgb(65, 61, 61);
+    font-family: sans-serif;
+    height: 300px;
+}
+
+.note2{
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: px;
+}
+
+.sub2{
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: grey;
+    font-weight: 800;
+}
+
+/* BOX3 */
+.b3{
+    min-height: 100%;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #c5bfbf;
+    font-family: sans-serif;
+}
+
+.who{
+    color: black;
+}
+
+.note3{
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: px;
+    color: black;
+}
+
+.sub3{
+    margin-top: 35px;
+    margin-left: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: grey;
+    font-weight: 800;
+}
+
+/* BOX4 */
+.b4{
+   width: 300px;
+   margin-top: -390px;
+   height: 350px;
+   border-radius: 6px;
+   background-color: #c5bfbf;
+   font-family: sans-serif;
+}
+
+.note4{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: px;
+    color: black;
+    width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sub4{
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: grey;
+    font-weight: 800;
+}
+
+
+/* BOX5 */
+.b5{
+    width: 660px;
+   margin-top: -390px;
+   height: 350px;
+   margin-left: -300px;
+   border-radius: 6px;
+}
+
+.note5{
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: white;
+    width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sub5{
+    margin-top: -15px;
+    margin-left: 20px;
+    line-height: 1.6;
+    padding-top: -10px;
+    margin-bottom: 20px;
+    color: grey;
+    font-weight: 800;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:720px){
+    .container{
+        min-height: 400px;
+        display:grid;
+        grid-template-columns: repeat(1,3fr);
+       
+        gap: 2rem ;
+        padding: 20px;
+        margin-left: 0px;
+        word-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* BOX1 */
+.b1{
+    width: 100%;
+    height: 500px;
+    background-color: purple;
+    border-radius: 5px;
+    line-break: auto;
+    font-family:  sans-serif;
+}
+i{
+    position: absolute;
+    top: -8px;
+    left: 55%;
+    font-size: 150px;
+    opacity: 0.5;
+}
+
+/* BOX2 */
+.b2{
+    border-radius: 5px;
+    background-color: rgb(65, 61, 61);
+    font-family: sans-serif;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+/* BOX4 */
+.b4{
+    width: 100%;
+    margin-top: 40px;
+    height: 350px;
+    border-radius: 6px;
+    background-color: #c5bfbf;
+    font-family: sans-serif;
+ }
+
+ 
+/* BOX5 */
+.b5{
+    width: 100%;
+   margin-top: 20px;
+   height: auto;
+
+   border-radius: 6px;
+margin-left: 5px;
+}
+
+/* BOX3 */
+.b3{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #c5bfbf;
+    font-family: sans-serif;
+    padding: 15px;
+}
+}
+
+@media screen and (max-width:1200px){
+    i{
+        position: absolute;
+        top: -8px;
+        left: 55%;
+        font-size: 150px;
+        opacity: 0.5;
+    }
+}
