@@ -113,14 +113,16 @@ body.active{
     border-radius: 5px;
     line-break: auto;
     font-family:  sans-serif;
+    z-index: -1;
 }
 
 .quote{
     position: absolute;
-    top: 35px;
+    top: 59px;
     left: 30%;
     font-size: 150px;
     opacity: 0.5;
+    z-index:-1;
 }
 
 .note1{
@@ -285,7 +287,7 @@ body.active{
 }
 .quote{
     position: absolute;
-    top: 45px;
+    top: 68px;
     left: 55%;
     font-size: 150px;
     opacity: 0.5;
