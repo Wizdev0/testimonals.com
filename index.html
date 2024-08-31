@@ -10,9 +10,24 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Barlow+Semi+Condensed">
 </head>
 <body>
+   
+</main>
+    <div id="toggle">
+        <i class="indicator"></i>
+    </div>
+   
+    <script>
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            body.classList.toggle('active');
+        }
+    </script>
+
    <main class="container">
         <div class="b1 box">
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-left quote"></i>
             <head class="head">
                 <img class="image yoo" src="image-daniel.jpg" alt="daniel's pic">
                 <p class="name">
@@ -89,6 +104,7 @@
 
             <p class="sub5">*The staff seem genuiuely concerned about my progress which I find refreshing. The program gave me the confidence necessary to be able to go out to the world and present myself as a capable junior developer . The standard is above the rest . You will get the personal anttention you need from an incredible community of smart and amazing people.* </p>
         </div>
-   </main>
+      
+ 
 </body>
 </html>
